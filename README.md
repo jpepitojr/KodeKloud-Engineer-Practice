@@ -1,2 +1,2 @@
 # KodeKloud-Engineer-Practice
-This repository is for educational use and includes solutions and examples from KodeKloud Engineer training to help users learn and apply their knowledge.
+This repository contains solutions and examples from my KodeKloud Engineer training, intended for educational purposes.
