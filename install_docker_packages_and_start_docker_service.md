@@ -1,4 +1,4 @@
-The Nautilus DevOps team aims to containerize various applications following a recent meeting with the application development team. They intend to conduct testing with the following steps:
+The Nautilus DevOps team aims to containerize various applications following a recent meeting with the application development team.
 
 Tasks:
 - Install docker-ce and docker compose packages on App Server 2.
@@ -11,9 +11,9 @@ sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
 2. Install the Docker packages:
-`sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
+```sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
 3. Start Docker Engine:
-`sudo systemctl enable --now docker`
+```sudo systemctl enable --now docker```
 
 Note: If you don't want Docker to start automatically, use `sudo systemctl start docker` instead.
 
