@@ -5,14 +5,15 @@ Tasks:
 - Initiate the docker service.
 
 Solution:
-1. Set up the repository:
+1. SSH to App Server 2: `ssh steve@stapp02`
+2. Set up the repository:
 ```
 sudo dnf -y install dnf-plugins-core
 sudo dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 ```
-2. Install the Docker packages:
+3. Install the Docker packages:
 ```sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
-3. Start Docker Engine:
+4. Start Docker Engine:
 ```sudo systemctl enable --now docker```
 
 Note: If you don't want Docker to start automatically, use `sudo systemctl start docker` instead.
