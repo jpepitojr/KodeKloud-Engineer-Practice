@@ -6,5 +6,4 @@ Task:
 Solution:
  1. SSH to App Server 2: `ssh steve@stapp02`
  2. List running Docker containers: `docker ps`
- 3. Force-remove the running container
- ```sudo docker rm --force kke-container```
+ 3. Force-remove the running container: `sudo docker rm --force kke-container`
